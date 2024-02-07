@@ -1,0 +1,107 @@
+#top-info{
+    height: 40px;
+    background-color: rgb(0, 163, 71);
+}
+#top-social-icons{
+    list-style-type:none ;
+    display: flex;
+    font-size: 20px;
+}
+.top-logo{
+    height: 80px;
+}
+#top-menu{
+    list-style-type:none ;
+    display: flex;
+    font-size: 18px;
+    margin-top: 18px;
+}
+#inquiry_btn{
+    background-color: rgb(0, 163, 71);   
+}
+#cust_count h1{
+    color: rgb(0, 163, 71);   
+    font-weight:700
+
+}
+
+
+.about-icin{
+    font-size: 75px;
+    color:  rgb(0, 163, 71);  
+}
+
+
+    
+
+
+
+@media only screen and (max-width: 768px) {
+    #en-button{
+        display: none;
+    }
+    #top-info-t{
+        display: none;
+    }
+    #testi{
+        margin-top:-20px !important ;
+    }
+    .f-links{
+        text-align: start !important;
+        margin-top: -10px !important;
+    }
+    #mixLinks{
+        margin-top: -120px !important;
+    }
+    .all_links{
+        text-align:  start !important;
+    }
+    .feedback{
+        padding: 0px !important
+    }
+    .feedback img{
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    /* about us  */
+    #mission_vision{
+        padding: 10px !important; 
+        margin-right: -12px !important; 
+        margin-left: -12px !important; 
+    }
+    #mission_vision .card-head{
+        padding-top: 10px !important; 
+        padding-bottom: 10px !important; 
+    }
+    #vision_card{
+        margin-top: 22px;
+    }
+    .dr_img{
+        height: 90% !important;
+        width: 70%
+    }
+
+}
+
+
+
+/* Include Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.footer-links {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff; 
+    text-decoration: none;
+}
+.other-footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #007bff; 
+}

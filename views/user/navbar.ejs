@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b4e3e0aa4d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>    
+    <title>Internship Task</title>
+    <%- include("../boot.ejs")%>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="top-info-t">
+            <div class="col-md-9 text-white p-2" id="top-info">
+                    <i class="fa-solid fa-phone ms-5"></i><span class="ms-2">+91 8928033235</span><span class="ms-3">|</span>
+                    <i class="fa-solid fa-envelope ms-3 me-2"></i><span>atharvhospital2014@gmail.com</span>
+            </div>
+            <div class="col-md-3" id="top-info">
+                <ul class="text-white p-1" id="top-social-icons">
+                    <li class="ms-3"><i class="fa-brands fa-facebook"><span class="ms-2">|</span></i></li>
+                    <li class="ms-3"><i class="fa-brands fa-instagram"><span class="ms-2">|</span></i></li>
+                    <li class="ms-3"><i class="fa-brands fa-twitter"><span class="ms-2">|</span></i></li>
+                    <li class="ms-3"><i class="fa-brands fa-linkedin"><span class="ms-2">|</span></i></li>
+                    <li class="ms-3"><i class="fa-brands fa-pinterest"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row ">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img class="w-25" src="https://atharvahospital.com/wp-content/uploads/2023/01/Atharva_logo_site.png">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/about_us">About Us</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li> -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Awards</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/laboratory">Laboratory</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                    <button id="en-button" class="btn btn-success w-25"><i class="fa-solid fa-headphones"></i>Enquiry Now</button>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!-- slider row  -->
+        
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://atharvahospital.com/wp-content/uploads/2023/01/01.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://atharvahospital.com/wp-content/uploads/2023/01/05.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://atharvahospital.com/wp-content/uploads/2023/01/07.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
